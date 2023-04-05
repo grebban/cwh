@@ -1,8 +1,8 @@
 {
-    "name": "maxbanton/cwh",
+    "name": "grebban/cwh",
     "homepage": "https://github.com/maxbanton/cwh",
     "type": "library",
-    "description": "AWS CloudWatch Handler for Monolog library",
+    "description": "AWS CloudWatch Handler for Monolog library. Add support for monolog 3, delete this when maxbanton/cwh has support for monolog 3",
     "keywords": [
         "aws",
         "cloudwatch",
@@ -22,7 +22,7 @@
     },
     "require": {
         "php": "^7.2 || ^8",
-        "monolog/monolog": "^2.0",
+        "monolog/monolog": "^3.3.1",
         "aws/aws-sdk-php": "^3.18"
     },
     "require-dev": {
